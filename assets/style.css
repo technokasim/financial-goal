@@ -1,0 +1,523 @@
+@font-face {
+    font-family: 'TT Travels Next Trial Medium';
+    src: url('fonts/TT Travels Next Trial Medium.ttf') format('truetype');
+    /* Add other font formats here if necessary */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  body {
+    font-family: 'TT Travels Next Trial Medium', sans-serif;
+  }
+  .container {
+    font-family: 'TT Travels Next Trial Medium', sans-serif;
+  }
+  .gradient-background {
+    background: linear-gradient(to bottom, #000000, #03136b, #0523cb); /* Black, Dark Blue, Light Blue */
+    padding: 20px 0;
+    color: white;
+  }
+  .navbar {
+    background-color: black;
+  }
+  .navbar .navbar-brand,
+  .navbar .nav-link {
+    color: white;
+    font-weight: bold;
+  }
+
+  @media only screen and (min-width: 1025px) {
+    .ldiv{
+        margin-top: -85px;
+        font-weight: 550;
+        display: inline-block;
+      }
+} 
+
+  
+  .tlist{
+    width: 100%;
+    border-bottom: 1px solid rgb(240, 240, 240);
+    padding: 8px 0; 
+    display: flex;   
+}
+  .tlist-noline{
+    width: 100%;
+    padding: 8px 0;    
+}
+  
+
+  .yellow-list{
+  background-color: yellow;
+    padding: 4px 0;
+    color: black;
+    display: inline-block;
+    width: 93%;
+}
+@media only screen and (min-width: 1025px) {
+
+.centered-div {
+    width: 100%;
+    height: 300px;
+    display: flex;
+      flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 37px;
+    margin: 0 auto;
+    background-color: #d5f033;
+    color: #000000;
+    font-weight: 600;
+  }
+}
+  .white-btn{
+    background-color: white;
+    color: black;
+    font-size: 11px;
+    border-radius: 19px;
+    margin: 5px;
+    width: 156px;
+  }
+
+  .black-btn{
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    border-radius: 19px;
+    margin: 5px;
+    width: 156px;
+  }
+
+
+  .dropdown-btn {
+    color: black;
+    border: solid 1px;
+    border-radius: 15px;
+    padding: 5px 20px;
+    cursor: pointer;
+    display: block;
+    font-weight: 600;
+  }
+  .dropdown-icon{
+    float: right;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+  }
+  .dropdown-btn:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-item {
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    color: black;
+    border-bottom: 1px solid #ccc;
+  }
+  .dropdown-item:last-child {
+    border-bottom: none;
+  }
+  @media only screen and (min-width: 1025px) {
+
+  .calculation-div{
+    padding: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+  }
+}
+
+  .input-with-text1 {
+    position: relative;
+    width: 90%;
+    margin-top: 25px;
+  }
+  .input-with-text1 input {
+    width: 100%;
+    background-color: #f5f4f7;
+    color: #0000007a;
+    border: solid 0px;
+    border-radius: 15px;
+    padding: 13px 20px;
+    cursor: pointer;
+  }
+  .input-with-text1::before {
+    content: '\33A1';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000000;
+    font-weight: 600;
+}
+  .input-with-text2 {
+    position: relative;
+    width: 90%;
+    margin-top: 25px;
+  }
+  .input-with-text2 input {
+    width: 100%;
+    background-color: #f5f4f7;
+    color: #0000007a;
+    border: solid 0px;
+    border-radius: 15px;
+    padding: 13px 20px;
+    cursor: pointer;
+  }
+  .input-with-text3 {
+    position: relative;
+    width: 90%;
+    margin-top: 25px;
+  }
+  .input-with-text3 input {
+    width: 100%;
+    background-color: #f5f4f7;
+    color: #0000007a;
+    border: solid 0px;
+    border-radius: 15px;
+    padding: 13px 20px;
+    cursor: pointer;
+  }
+  .input-with-text3::before {
+    content: '$';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000000;
+    font-weight: 600;
+    }
+    .cl-last{
+        /* background-color: #f5f4f7; */
+        color: #0000007a;
+        border-radius: 15px;
+        padding: 5px 20px;
+        cursor: pointer;
+        display: block;
+        font-weight: 600;
+        margin-top: 25px;
+        width: 90%;
+    }
+
+ 
+      .progress-bar {
+        height: 10px;
+        border-radius: 10px;
+        background-color: yellow;
+        position: relative;
+        overflow: hidden;
+      }
+      .progress-bar::before {
+        content: '';
+        display: block;
+        width: 15%;
+        height: 100%;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: width 0.5s ease-in-out;
+      }
+      .bid-div{
+        padding: 50px 50px 0 50px;
+        background-color: white;
+        color: black;
+        border-radius: 30px;
+        height: 100%;
+      }
+      .custom-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, sans-serif;
+        font-size: 24px;
+        text-align: center;
+      }
+      .small-top {
+        font-size: 29px;
+        font-weight: 600;
+        /* margin-right: 5px; */
+        margin-top: -15px;
+      }
+      .big-center {
+        font-size: 48px;
+        font-weight: 600;
+        margin-right: 5px;
+        position: relative;
+      }
+      .slash {
+        font-size: 19px;
+        margin-top: 11px;
+        font-weight: lighter;
+      }
+      .line {
+        position: absolute;
+        width: 90%;
+        border-top: 4px solid #000;
+        left: 6%;
+        top: 50%;
+        transform: translate(4%, -52%);
+    }
+    .offer-text{
+        background-color: black;
+        color: white;
+        border-radius: 29px;
+    }
+    .trust-text{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 37px;
+        margin: 0 auto;
+        color: #000000;
+        font-weight: 600;
+    }
+
+    .secure{
+        background-color: #d5f033;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 27px;
+        margin: 0 auto;
+        height: 150px;
+    }
+    .secure img{
+        width: 100px;
+        margin-top: 2px;
+    }
+    .secure-plain{
+        border:1px solid #00000017;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 27px;
+        margin: 0 auto;
+        height: 150px;
+        font-weight: 600;
+        
+    }
+
+    .check{
+        background-color: #000000;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 27px;
+        margin: 0 auto;
+        height: 306px;
+        position: relative;
+    }
+
+    .check-box{
+        position: absolute;
+        height: 90px;
+        width: 90px;
+        border: 3px solid #d5f033;
+        border-radius: 16px;
+        right: 11px;
+        bottom: 11px;
+        color: white;
+    }
+
+    .check-box svg{
+        margin-left: 27px;
+        margin-top: 17px;
+        height: 59px;
+        transform: rotate(35deg);
+    }
+    .companies img{
+        width: 100%;
+    }
+
+    .team-member {
+        border: 2px solid white;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 10px;
+        position: relative;
+        text-align: center;
+        color: white;
+  
+      }
+      .team-member img {
+        max-width: 100%;
+        border-radius: 50%;
+      }
+      @media only screen and (min-width: 1025px) {
+      .team-2{
+        margin-top: -63px;
+      }
+      .team-2-2{
+        margin-left: -86px;
+      }
+    }
+
+    .team-div{
+        position: relative;
+    }
+
+    @media only screen and (min-width: 1025px) {
+
+    .yellow-bg{
+        position: absolute;
+        height: 232px;
+        width: 222px;
+        background-color: #d5f033;
+        top: 30%;
+        left: 26%;
+    }
+}
+    .collab{
+        font-weight: 600;
+    }
+    .collab-t{
+        display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    }
+    .collab-t1{
+        display: flex;
+        background-color: #d5f033;
+        color: black;
+        font-weight: 600;
+    border-radius: 14px;
+    padding: 3px;
+
+    }
+    .collab-t2{
+        font-size: 18px;
+        font-weight: 600;
+        margin-left: 5px;
+        margin-top: -3px;
+    }
+    .collab-t3{
+    font-size: 26px;
+    font-weight: 600;
+    margin-right: 5px;
+    position: relative;
+    }
+
+    .circle-container {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        margin: auto;
+      }
+      .outer-circle {
+        width: 300px;
+        height: 300px;
+        border: 11px solid #d5f033;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-sizing: content-box;
+      }
+      .inner-circle {
+        width: 100px;
+        height: 100px;
+        border: 2px solid white;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-sizing: content-box;
+      }
+      .profile-image {
+        width: 278px;
+        height: 278px;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-image: url('../src/team_member_1.jpg');
+        background-size: cover;
+        background-position: center;
+        z-index: 1;
+      }
+
+      .deal-div{
+        position: absolute;
+        /* height: 200px; */
+        width: 210px;
+        right: 14%;
+        bottom: 15px;
+        text-align: center;
+        border: 3px solid #ffffff;
+        border-radius: 16px;
+        font-weight: 600;
+      }
+      .head{
+        background-color: black;
+        color: white;
+        padding: 5px;
+        font-weight: 600;
+        text-align: center;
+        border-radius: 16px 16px 0 0;
+      }
+      .dl1{
+        background-color: #ffffff;
+        width: 100%;
+      }
+      .dl2{
+        background-color: #d5f033;
+        width: 100%;
+      }
+      .d-line{
+        height: 8px;
+        width: 46px;
+        margin-top: 8px;
+        background-color: #d5f033;
+      }
+
+      .dl{
+        padding: 4px 0;
+      }
+
+      .discuss{
+        background-color: #d5f033;
+        border-radius: 25px;
+        /* text-align: center; */
+      }
+      .lets-d{
+        text-align: left;
+        margin-left: 10%;
+        font-weight: 600;
+      }
+      .lets-i{
+        margin-left: 20%;
+        height: 150px;
+        width: 150px;
+        border: 3px solid #070707;
+        border-radius: 16px;
+        right: 11px;
+        bottom: 11px;
+        color: white;
+      }
+
+      .lets-i svg{
+        height: 83px;
+        margin-left: 49px;
+        margin-top: 33px;
+        transform: rotate(35deg);
+      }
